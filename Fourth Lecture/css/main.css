@@ -41,6 +41,7 @@
 
 body{
     margin: 0;
+    padding: 2px;
 }
 .for__header{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 30%, rgba(1,104,143,1) 74%);

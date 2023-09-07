@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+h2{
+    margin-top: 40px;
+}
+.contact__boxes{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+.box{
+    border: 1px solid whitesmoke;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px 50px;
+    width: 17%;
+}
+.box p{
+    margin-top: 5px;
+
+}
+.submit__form{
+    margin-top: 40px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.fornames input{
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.container_2{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.messages{
+    margin-top: 20px;
+}
+.messages textarea{
+    width: 55%;
+}
+.submit button{
+    background-color: rgb(20, 20, 255);
+    margin-top: 20px;
+    color: white;
+    padding: 6px 12px;
+    font-size: 18px;
+    border-radius: 18px;
+    transition: 0.5s;
+    margin-bottom: 10px;
+    border: 1px solid rgb(20, 20, 255);
+}
+.submit button:hover{
+    background-color: white;
+    border: 1px solid rgb(20, 20, 255);
+    color: rgb(20, 20, 255);
+}
